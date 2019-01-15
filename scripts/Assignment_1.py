@@ -33,7 +33,15 @@ max_size = 2
 # The function we want: it takes in a name list, and a max group size. 
 def shuffle_groups(name_list, max_group_size):
     """
-    
+    Purpose: Shuffles names from our name list and groups them based on the selected max group
+             size (i.e. no group should exceed the given size)
+    ------------------------------------------------------------------------------------------
+    Params:
+        name_list : list
+            The list that we desire to go over and form groups from
+        
+        max_group_size : int
+            The maximum size for the groups we desire to form
     """
     # We shuffle the names prior, as shuffling them during iteration may cause duplicates
     shuffle(name_list) 
