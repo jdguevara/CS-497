@@ -1,4 +1,5 @@
 ## Files to ignore
+*.ipynb
 
 ## Directories to ignore
 .ipynb_checkpoints/
