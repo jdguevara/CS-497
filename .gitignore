@@ -1,5 +1,6 @@
 ## Files to ignore
 *.css
+.DS_Store
 
 ## Directories to ignore
 .ipynb_checkpoints/
